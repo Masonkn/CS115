@@ -9,7 +9,7 @@ public class FaceCardTest {
     public void getText() {
         fiveofhearts fiveofhearts = new fiveofhearts();
 //        CardTest cardTest = new CardTest(fiveofhearts);
-//        CardTest.run(final fiveofhearts);
+        CardTest.run(fiveofhearts);
 //        faceCard = faceCard;
         //        System.out.println(fiveofhearts);
     }
