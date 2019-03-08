@@ -1,4 +1,6 @@
-package edu.ldsbc.Assignment5;
+package edu.ldsbc.Assignment7;
+
+
 
 /**
  * Base interface used to manage cards held by a player.
