@@ -6,6 +6,7 @@ public class main {
 
         Deck deck = new Deck();
 
+
         //HEARTS
         Cards heart1 = new Cards(1, "\u2665");
         Cards heart3 = new Cards(2, "\u2665");
@@ -17,10 +18,10 @@ public class main {
         Cards heart9 = new Cards(8, "\u2665");
         Cards heart10 = new Cards(9, "\u2665");
         Cards heart11 = new Cards(10, "\u2665");
-        Cards heart12 = new Cards(11, "\u2665");
-        Cards heart13 = new Cards(12, "\u2665");
-        Cards heart14 = new Cards(13, "\u2665");
-        Cards heart15 = new Cards(14, "\u2665");
+        Cards heart12 = new Cards(10, "\u2665");
+        Cards heart13 = new Cards(10, "\u2665");
+        Cards heart14 = new Cards(10, "\u2665");
+        Cards heart15 = new Cards(10, "\u2665");
         deck.addCard(heart1);
         deck.addCard(heart3);
         deck.addCard(heart4);
@@ -45,10 +46,10 @@ public class main {
         Cards spades9 = new Cards(8, "\u2664");
         Cards spades10 = new Cards(9, "\u2664");
         Cards spades11 = new Cards(10, "\u2664");
-        Cards spades12 = new Cards(11, "\u2664");
-        Cards spades13 = new Cards(12, "\u2664");
-        Cards spades14 = new Cards(13, "\u2664");
-        Cards spades15 = new Cards(14, "\u2664");
+        Cards spades12 = new Cards(10, "\u2664");
+        Cards spades13 = new Cards(10, "\u2664");
+        Cards spades14 = new Cards(10, "\u2664");
+        Cards spades15 = new Cards(10, "\u2664");
         deck.addCard(spades1);
         deck.addCard(spades3);
         deck.addCard(spades4);
@@ -73,10 +74,10 @@ public class main {
         Cards clubs9 = new Cards(8, "\u2667");
         Cards clubs10 = new Cards(9, "\u2667");
         Cards clubs11 = new Cards(10, "\u2667");
-        Cards clubs12 = new Cards(11, "\u2667");
-        Cards clubs13 = new Cards(12, "\u2667");
-        Cards clubs14 = new Cards(13, "\u2667");
-        Cards clubs15 = new Cards(14, "\u2667");
+        Cards clubs12 = new Cards(10, "\u2667");
+        Cards clubs13 = new Cards(10, "\u2667");
+        Cards clubs14 = new Cards(10, "\u2667");
+        Cards clubs15 = new Cards(10, "\u2667");
         deck.addCard(clubs1);
         deck.addCard(clubs3);
         deck.addCard(clubs4);
@@ -101,10 +102,10 @@ public class main {
         Cards diamonds9 = new Cards(8, "\u2662");
         Cards diamonds10 = new Cards(9, "\u2662");
         Cards diamonds11 = new Cards(10, "\u2662");
-        Cards diamonds12 = new Cards(11, "\u2662");
-        Cards diamonds13 = new Cards(12, "\u2662");
-        Cards diamonds14 = new Cards(13, "\u2662");
-        Cards diamonds15 = new Cards(14, "\u2662");
+        Cards diamonds12 = new Cards(10, "\u2662");
+        Cards diamonds13 = new Cards(10, "\u2662");
+        Cards diamonds14 = new Cards(10, "\u2662");
+        Cards diamonds15 = new Cards(10, "\u2662");
         deck.addCard(diamonds1);
         deck.addCard(diamonds3);
         deck.addCard(diamonds4);

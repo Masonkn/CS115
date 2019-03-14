@@ -52,13 +52,14 @@ public class Hand implements PHand {
             Cards cards = (Cards) card;
             total += cards.getRank();
         }
-//        int tempVal = findBestCardTotal(total);
-//        total = tempVal;
+        int tempVal = findBestCardTotal(total);
+        System.out.println(tempVal);
+        total = tempVal;
         return total;
     }
-    public int findBestCardTotal(int total) {
-        if(total +11 <= 21) {
-            total +=11;
+    int findBestCardTotal(int total) {
+        if((total +10) <= 21) {
+            total +=10;
             System.out.println("Added 11");
             return total;
         } else {
